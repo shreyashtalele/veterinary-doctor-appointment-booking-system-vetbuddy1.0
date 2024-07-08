@@ -1,0 +1,103 @@
+html{
+  box-sizing: border-box;
+}
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+
+.c-img1{
+    height: 400px;
+    object-fit: cover;
+}
+.profile-img{
+  width: 30px;
+  margin-right: 20px;
+  
+}
+
+.navbar{
+    height: 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    box-shadow: 0 0 5px #c2c2c2;
+}
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  .pet-img img{
+      width: 250px;
+     
+  }
+
+  .pet-section{
+    height: 900px;
+  }
+  .p-heading{
+    margin: 4rem 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+  }
+  .logo{
+    height: 50px;
+  }
+.footer-img{
+    height: 200px;
+   
+    justify-content: center;
+    display: block;
+}
+.info-card img{
+   width: 350px;
+   justify-content: center;
+}
+.info-card .heading{
+  font-size: 1.6rem;
+  font-weight: 500;
+
+}
+.hero-section-heading{
+  text-align: center;
+  margin-top: 5rem;
+  
+}
+.info-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  
+  
+}
+.info-card .info{
+  font-size: 1.3rem;
+}
+.work-section{
+  margin-top: 5rem;
+}
+.feature-card{
+  width: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 4px #c2c2c2;
+  transition: .5s ease-out;
+}
+.feature-card:hover
+{
+    transform: translateY(-10px);
+}
+.vac-img{
+  width: 200px;
+}
+.feature{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
